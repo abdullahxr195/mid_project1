@@ -1,5 +1,6 @@
 body{
    background-image: url("https://i.pinimg.com/1200x/57/84/a4/5784a4f855c12b4e6d8bf6502933ab69.jpg");
+
 }
 
 
@@ -29,7 +30,7 @@ gap: 250px;
 }
 
 .dinner{
-
+   
     display: grid;
    grid-template-columns: auto auto;
     grid-template-rows: auto auto;
@@ -52,11 +53,10 @@ gap: 250px;
     margin: 50px;
     padding: 100px;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.219);
     text-align: center;
     
 }
-
 
 
 
