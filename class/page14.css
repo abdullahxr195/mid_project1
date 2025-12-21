@@ -21,7 +21,16 @@ body{
 gap: 250px;
 }
 
+.card{
 
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 50px;
+
+}
 
 .nav-link{
     color: white;

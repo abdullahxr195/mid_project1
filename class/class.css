@@ -1,6 +1,7 @@
 body{
    background-color: rgb(59, 8, 8);
    background-image: url("https://i.pinimg.com/1200x/57/84/a4/5784a4f855c12b4e6d8bf6502933ab69.jpg");
+ 
 }
 
 .container-fluid{
@@ -13,6 +14,7 @@ body{
     height: 100px;
     border-radius: 50%;
 }
+
 
 
 .nav-link{
