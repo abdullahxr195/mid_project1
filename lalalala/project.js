@@ -1,64 +1,37 @@
-
-
-
-var form=document.getElementById('form')
-var useremail=document.getElementById('form2Example1')
-var password=document.getElementById('form2Example2')
-var allUser=JSON.parse(localStorage.getItem('user')) || [];
+var form = document.getElementById('form');
+var useremail=document.getElementById('form2Example1');
+var password=document.getElementById('form2Example2');
+var allUsers=JSON.parse(localStorage.getItem('users')) || [];
 form.addEventListener('submit',function(event){
-event.preventDefault()
+ event.preventDefault();
+if(allUsers.length == 0){
+ return;
+alert('No users found');
+}
 
-
-
- if(allUser.length == 0){
-    alert("no users found")
-    return;
+else{
+var isEcxist=false;
+ for(var i=0;i<allUsers.length;i++){
+    if(allUsers[i].email == useremail.value && allUsers[i].password == password.value){
+      console.log(allUsers[i].name);
+        isEcxist=true;
  }
 
- else{
-    var isExisted=false
-    for(var i=0;i<allUser.length;i++){
-        if(allUser[i].email==useremail.value && allUser[i].password==password.value){
-            console.log(allUser[i].name)
-            isExisted=true
-            
-        }
-
-        else{
-            console.log("no")
-        }
-    }
-
-if(isExisted == true){
-    window.location.href='/restaurant/food.html'
-}
 else{
-    alert("user not allowed");
+    console.log('user not found')
 }
 
+} 
+
+
+if(isEcxist == true){
+    window.location.href = '/lalalala/food.html';
 }
 
+else{
+    alert('user not allowed');}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-})
+}
+}) 
