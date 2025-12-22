@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 var form = document.getElementById('form');
 var useremail=document.getElementById('form2Example1');
 var password=document.getElementById('form2Example2');
@@ -25,7 +32,7 @@ else{
 
 
 if(isEcxist == true){
-    window.location.href = '/lalalala/food.html';
+    window.location.href = '/restaurant/food.html';
 }
 
 else{
