@@ -104,7 +104,12 @@ gap: 250px;
     
 }
 
-
+.card-img-top{
+    
+    height: 100%;
+    width: 100%;
+    
+}
 
 h1{
     color: wheat;
