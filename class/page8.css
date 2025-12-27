@@ -116,6 +116,23 @@ body{
 
 /**********************************************************************/
 
+.afoot{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  
+}
+
+
+
+ul{
+
+    list-style: none;
+    
+}
+
+
+
 #img1{
     width: 100px;
     height: 100px;

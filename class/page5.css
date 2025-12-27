@@ -176,6 +176,20 @@ gap: 250px;
     
 }
 
+.afoot{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  
+}
+
+
+
+ul{
+
+    list-style: none;
+    
+}
 
 
 .nav-item:hover{

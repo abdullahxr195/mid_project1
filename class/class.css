@@ -143,14 +143,30 @@ img{
 }
 
 
-#foot{
-    background-color: rgb(0, 0, 0);
+.afoot{
+    text-decoration: none;
     color: white;
+    font-size: 20px;
+  
+}
+
+
+#foot{
+   
+    background-color: rgba(0, 0, 0, 0.801);
     display: flex;
     justify-content: space-around;
     padding: 20px;
     margin-top: 20px;
     border-radius: 30px;
+    list-style: none;
+}
+ 
+ul{
+
+    list-style: none;
+    color: white;
+
 }
 
 #foot1{

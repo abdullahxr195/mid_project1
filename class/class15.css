@@ -142,14 +142,30 @@ button{
 
 
 #foot{
-   background-color: black;
-    color: white;
+   
+    background-color: rgba(0, 0, 0, 0.801);
     display: flex;
     justify-content: space-around;
     padding: 20px;
     margin-top: 20px;
     border-radius: 30px;
-    text-align: center;
+    
+}
+
+
+.afoot{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  
+}
+
+
+ul{
+
+    list-style: none;
+    color: white;
+
 }
 
 #foot1{

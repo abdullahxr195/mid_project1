@@ -46,6 +46,20 @@ button{
     
 }
 
+.afoot{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  
+}
+
+
+
+ul{
+
+    list-style: none;
+    
+}
 
 
 /**********************************************************************/

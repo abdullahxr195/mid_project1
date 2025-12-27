@@ -236,3 +236,18 @@ background-color: black;
    border-left: 2px solid white;
    
 } 
+
+.afoot{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  
+}
+
+
+
+ul{
+
+    list-style: none;
+    
+}
