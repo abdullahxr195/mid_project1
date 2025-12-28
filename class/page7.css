@@ -123,8 +123,7 @@ body{
 }
 
 .navbar-nav{
-gap: 250px;
-}
+gap: 200px;}
 
 .card{
 
@@ -226,7 +225,15 @@ button{
 }
 
 
-
+button:hover{
+   background-color: rgb(255, 163, 3);
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
 
 
 
